@@ -201,8 +201,7 @@ agent = LlmAgent(
     description="Audits FastAPI and Next.js repositories for compliance. Integrates an intermediate HITLAuthorizationGateToolset that routes all McpToolset actions through a security clearance gate.",
     model="gemini-2.5-flash",
     instruction=full_instruction,
-    tools=[gate_toolset],
-    before_tool_callback=before_tool_approval
+    tools=[gate_toolset]
 )
 
 async def main():
