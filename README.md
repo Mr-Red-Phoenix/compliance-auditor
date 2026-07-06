@@ -26,5 +26,5 @@ The system is separated into three distinct threads to prevent event loop collis
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/compliance-auditor.git](https://github.com/YOUR_USERNAME/compliance-auditor.git)
+git clone [https://github.com/YOUR_USERNAME/compliance-auditor.git](https://github.com/Mr-Red-Phoenix/compliance-auditor.git)
 cd compliance-auditor
