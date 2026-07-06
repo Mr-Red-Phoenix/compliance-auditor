@@ -1,0 +1,6 @@
+manifest-version: "1.0.0"
+agent:
+  name: "compliance-auditor"
+  version: "1.0.0"
+  runtime: "python"
+  entrypoint: "app/agent.py"
